@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="id4-n6-kPv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Menlo.ttc">
+            <string>Menlo-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yJ4-88-H5w">
+            <objects>
+                <tableViewController id="PZC-R0-Qkq" customClass="ViewController" customModule="SFGlyphs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fVs-pf-4A0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="163" id="BV7-Uh-pMu" customClass="Cell" customModule="SFGlyphs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="163"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BV7-Uh-pMu" id="AST-Rb-Aiw">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="162.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bA7-MA-5oV">
+                                            <rect key="frame" x="102" y="11" width="16" height="76.5"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2y6-zQ-15A">
+                                            <rect key="frame" x="16" y="11" width="343" height="141"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="38x-7h-3aY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="86" height="141"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aog-zs-ZL2">
+                                                            <rect key="frame" x="0.0" y="0.0" width="86" height="76.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0V-G1-Xib">
+                                                            <rect key="frame" x="0.0" y="76.5" width="86" height="64.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lCt-LH-PEP">
+                                                    <rect key="frame" x="102" y="0.0" width="81.5" height="141"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⃞■" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8q-gS-BdX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="81.5" height="76.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20DD 24CE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aah-aH-62Z">
+                                                            <rect key="frame" x="0.0" y="76.5" width="81.5" height="64.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y4R-0z-cn6">
+                                                    <rect key="frame" x="199.5" y="0.0" width="143.5" height="141"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="A⃞■" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSP-XK-Wui">
+                                                            <rect key="frame" x="0.0" y="0.0" width="143.5" height="76.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxI-to-T5V">
+                                                            <rect key="frame" x="0.0" y="76.5" width="143.5" height="64.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="aSP-XK-Wui" firstAttribute="height" secondItem="e8q-gS-BdX" secondAttribute="height" id="BfJ-TQ-rNn"/>
+                                                <constraint firstItem="e8q-gS-BdX" firstAttribute="height" secondItem="aog-zs-ZL2" secondAttribute="height" id="rOs-bv-ok7"/>
+                                                <constraint firstItem="aog-zs-ZL2" firstAttribute="width" relation="greaterThanOrEqual" secondItem="2y6-zQ-15A" secondAttribute="width" multiplier="0.25" id="vAn-K7-p6Y"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="bA7-MA-5oV" firstAttribute="leading" secondItem="aog-zs-ZL2" secondAttribute="trailing" id="0Bk-AR-TO8"/>
+                                        <constraint firstItem="2y6-zQ-15A" firstAttribute="leading" secondItem="AST-Rb-Aiw" secondAttribute="leadingMargin" id="9fp-Yf-HrF"/>
+                                        <constraint firstItem="2y6-zQ-15A" firstAttribute="top" secondItem="AST-Rb-Aiw" secondAttribute="topMargin" id="HDa-Zx-oxZ"/>
+                                        <constraint firstItem="bA7-MA-5oV" firstAttribute="top" secondItem="aog-zs-ZL2" secondAttribute="top" id="OXE-Rv-NZr"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="2y6-zQ-15A" secondAttribute="bottom" id="czc-dq-vZo"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="2y6-zQ-15A" secondAttribute="trailing" id="glx-qZ-rtF"/>
+                                        <constraint firstItem="e8q-gS-BdX" firstAttribute="leading" secondItem="bA7-MA-5oV" secondAttribute="trailing" id="tl3-5k-cru"/>
+                                        <constraint firstItem="bA7-MA-5oV" firstAttribute="bottom" secondItem="aog-zs-ZL2" secondAttribute="bottom" id="ucF-7c-o8E"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="base" destination="aog-zs-ZL2" id="fMh-Lf-agz"/>
+                                    <outlet property="baseCode" destination="I0V-G1-Xib" id="Hfa-8M-1aE"/>
+                                    <outlet property="combiner" destination="e8q-gS-BdX" id="xwG-Vc-csb"/>
+                                    <outlet property="combinerCode" destination="aah-aH-62Z" id="5QH-pK-agG"/>
+                                    <outlet property="result" destination="aSP-XK-Wui" id="k1k-0F-GpS"/>
+                                    <outlet property="resultCode" destination="rxI-to-T5V" id="O2x-8p-X97"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="PZC-R0-Qkq" id="qWQ-aP-szN"/>
+                            <outlet property="delegate" destination="PZC-R0-Qkq" id="79X-Gt-XUu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="TcZ-PV-8CT">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="jwG-6i-iLe">
+                            <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="24" minValue="8" maxValue="64" id="Uzc-xw-gRl">
+                                <rect key="frame" x="16" y="6.5" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderDidChange:" destination="PZC-R0-Qkq" eventType="valueChanged" id="ZIw-AX-6WJ"/>
+                                </connections>
+                            </slider>
+                        </barButtonItem>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="f48-wX-eR5">
+                            <rect key="frame" x="143" y="7" width="89" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title=""/>
+                                <segment title=""/>
+                            </segments>
+                            <connections>
+                                <action selector="segDidChange:" destination="PZC-R0-Qkq" eventType="valueChanged" id="pds-kB-CM8"/>
+                            </connections>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="rtW-OP-FA0">
+                            <connections>
+                                <action selector="didTapSend:" destination="PZC-R0-Qkq" id="UIf-KU-6u4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="seg" destination="f48-wX-eR5" id="cmJ-xA-cC0"/>
+                        <outlet property="slider" destination="Uzc-xw-gRl" id="A9N-p0-vlT"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4o-NQ-VBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="194"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pme-SR-AKW">
+            <objects>
+                <navigationController id="id4-n6-kPv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yhR-l7-f86">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PZC-R0-Qkq" kind="relationship" relationship="rootViewController" id="x8D-9L-uEh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O26-UL-N3j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="203"/>
+        </scene>
+    </scenes>
+</document>
